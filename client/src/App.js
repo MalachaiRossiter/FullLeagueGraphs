@@ -42,6 +42,9 @@ function App() {
     <div className="App">
       <h1>Wow this is cool!</h1>
       <p>{summonerName}</p>
+      <form onSubmit={}>
+
+      </form>
       {
         loaded && summonerMastery.map((championId) => (
           <div key={championId}>
