@@ -47,8 +47,8 @@ function App() {
       </form>
       {
         loaded && summonerMastery.map((championId) => (
-          <div key={championId}>
-            <img src={`/assets/${championId}.png`} alt={'champion image here'}/>
+          <div key={championId} class={'championDiv'}>
+            <img class={'championIcon'} src={`/assets/${championId}.png`} alt={'champion image here'}/>
           </div>
         ))
       }
